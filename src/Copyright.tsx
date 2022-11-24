@@ -11,8 +11,8 @@ export default function Copyright() {
       width: '100%'
     }}>
       {'Copyright © '}
-      <MuiLink color="inherit" href="https://rella.xyz/">
-        Rella
+      <MuiLink color="inherit" href="https://rellanft.xyz/">
+        Social Jool LLC
       </MuiLink>{' '}
       {new Date().getFullYear()}.
     </Typography>

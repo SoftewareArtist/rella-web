@@ -41,7 +41,7 @@ const ResponsiveAppBar = () => {
                         textDecoration: 'none',
                     }}
                 >
-                    Rella
+                    Social Jool LLC
                 </Typography>
 
                 <Grid container justifyContent="flex-end">
@@ -81,7 +81,7 @@ const ResponsiveAppBar = () => {
                             textDecoration: 'none',
                         }}
                     >
-                        Rella
+                        Social Jool LLC
                     </Typography>
                 </IconButton>
                 <Menu
