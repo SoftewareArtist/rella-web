@@ -36,7 +36,7 @@ const ResponsiveAppBar = () => {
                         display: { xs: 'none', md: 'flex' },
                         fontFamily: 'monospace',
                         fontWeight: 700,
-                        letterSpacing: '.3rem',
+                        overflow: 'inherit',
                         color: 'inherit',
                         textDecoration: 'none',
                     }}
@@ -76,7 +76,7 @@ const ResponsiveAppBar = () => {
                             flexGrow: 1,
                             fontFamily: 'monospace',
                             fontWeight: 700,
-                            letterSpacing: '.3rem',
+                            overflow: 'inherit',
                             color: 'inherit',
                             textDecoration: 'none',
                         }}
