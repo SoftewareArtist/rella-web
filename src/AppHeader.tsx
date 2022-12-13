@@ -45,6 +45,9 @@ const ResponsiveAppBar = () => {
                 </Typography>
 
                 <Grid container justifyContent="flex-end">
+                    <Link href="https://www.linkedin.com/in/sanjananuwan/" color="secondary" sx={{mr:2, textDecoration: 'none'}}>
+                        LinkedIn
+                    </Link>
                     {pages.map((page) => (
                         <Link href={"/" + page.url} color="secondary" sx={{mr:2, textDecoration: 'none'}}>
                             {page.title}
@@ -102,8 +105,13 @@ const ResponsiveAppBar = () => {
                         display: { xs: 'block', md: 'none' },
                     }}
                 >
-                    {pages.map((page) => (
-                        <MenuItem>
+                    <MenuItem>
+                        <Link href="https://www.linkedin.com/in/sanjananuwan/" color="secondary" sx={{textDecoration: 'none'}}>
+                            LinkedIn
+                        </Link>
+                    </MenuItem>
+                    {pages.map((page, index) => (
+                        <MenuItem key = {index}>
                             <Link href={"/" + page.url} color="secondary" sx={{textDecoration: 'none'}}>
                                 {page.title}
                             </Link>
